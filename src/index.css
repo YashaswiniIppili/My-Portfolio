@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@200;400;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+}
+
+:root 
+{
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #177cc4;
+    --color-primary-variant: rgba(96, 117, 132, 0.5);
+    --color-white: black;
+    --color-light: rgba(15, 15, 15, 0.6);
+    --transition:all 400ms ease;
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-ms: 90%;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar 
+{
+    display: none;
+}
+
+body 
+{
+    font-family: 'Anek Devanagari', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    background-image: url(../src/assets/wp1.jpg);
+    background-size: cover;
+}
+
+/* --------------- */
+
+.container 
+{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5 
+{
+    font-weight: 500;
+    font-size: large;
+}
+
+h1 
+{
+    font-size: 2.5rem;
+}
+
+section 
+{
+    margin-top: 8rem;
+}
+
+section > h2, section > h5 
+{
+    text-align: center;
+    color: black;
+}
+
+section > h2 
+{
+    color: rgb(5, 105, 128);
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.text-light 
+{
+    color: var(--color-light);
+}
+
+a 
+{
+    color: rgb(29, 114, 143);
+    transition: var(--transition);
+}
+
+a:hover
+{
+    color: var(--color-white);
+}
+
+.btn 
+{
+    width: max-content;
+    display: inline-block;
+    color: rgb(8, 134, 162);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 2px solid rgb(100, 168, 190);
+    transition: var(--transition);
+}
+
+.btn-hover 
+{
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary 
+{
+    background: rgb(100, 168, 190);
+    color: rgb(3, 50, 61);
+}
+
+img 
+{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Medium Devices */
+@media screen and (max-width: 1024px)
+{
+    .container 
+    {
+        width: var(--container-width-md);
+    }
+
+    section 
+    {
+        margin-top: 6rem;
+    }
+}    
+
+/* Small Devices */
+@media screen and (max-width: 600px)
+{
+    .container 
+    {
+        width: var(--container-width-sm);
+    }
+
+    section > h2
+    {
+        margin-bottom: 2rem;
+    }
+} 
