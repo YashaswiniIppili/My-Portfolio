@@ -27,11 +27,9 @@ const Portfolio = () => {
             <h3>Dotslash'23 4.0</h3>
             <small>Implemented VAK Categorization. Provides the user with the required type of resources (Aural, Visual or Kinesthetic).</small>
         </article>
-        </article>
         <article className='portfolio__item'>
             <h3>Hack Attack'23</h3>
             <small>Held by the ISFCR club of PES. Implemented (both C++ and Python) a working model of Encryption & Decryption of messages. Used AES algorithm.</small>
-        </article>
         </article>
         <article className='portfolio__item'>
             <h3>Terrathon'23 Hackathon</h3>
