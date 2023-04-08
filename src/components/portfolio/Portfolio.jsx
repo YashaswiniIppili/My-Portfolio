@@ -79,6 +79,12 @@ const Portfolio = () => {
             <br/>
             <small>Amazing Interview-Placement based club where they host reular meetings and interactive sessions.</small>
         </article>
+        <article className='portfolio__item'>
+            <h3>Aatmatrisha'23</h3>
+            DISCO (Disciplinary Committee)
+            <br/>
+            <small>This is the official annual event of PES. Participated in the dance flashmob and volunteered for the DISCO community.</small>
+        </article>
       </div>
       <br />
       <br />
