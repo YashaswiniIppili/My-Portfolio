@@ -29,11 +29,15 @@ const Portfolio = () => {
         </article>
         <article className='portfolio__item'>
             <h3>Hack Attack'23</h3>
-            <small>Held by the ISFCR club of PES. Implemented (both C++ and Python) a working model of Encryption & Decryption of messages. Used AES algorithm.</small>
+            <small>Held by the ISFCR club of PES. Implemented (both C++ and Python) a working model of Encryption & Decryption of messages using AES algorithm.</small>
         </article>
         <article className='portfolio__item'>
             <h3>Terrathon'23 Hackathon</h3>
-            <small>Held by CMS & Alcoding Club. Dealt with Sustainable Development. Implemented a website that would help local producers sell their produce.</small>
+            <small>Made it to Top 8 teams out of 30+ teams held by CMS & Alcoding Club. Dealt with Sustainable Development. Implemented a website that would help local producers sell their produce.</small>
+        </article>
+        <article className='portfolio__item'>
+            <h3>Fake News Detection</h3>
+            <small>Made a working Fake News Detection Model that let's you know if the fact you just entered is true or fake. Trained it using a large dataset.</small>
         </article>
       </div>
       <br/>
