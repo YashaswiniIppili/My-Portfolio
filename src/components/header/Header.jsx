@@ -12,7 +12,7 @@ const Header = () => {
         <br />
         <HeaderSocials />
         <div>
-        I'm a student from 3rd sem, CSE, PES University, who's passionate about coding! Had a thing for it since back then but only YOU could convert your dreams into a reality. Working on getting better at it. AI&ML kind of person.
+        I'm a student from 4th sem, CSE, PES University, who's passionate about coding! Had a thing for it since back then but only YOU could convert your dreams into a reality. Working on getting better at it. AI&ML kind of person.
         <br/>
         I'd say I'm good at multi-tasking, time-management, communicating, working with a team and as an individual.
         </div>
