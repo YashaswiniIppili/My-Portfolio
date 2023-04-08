@@ -23,19 +23,19 @@ const Portfolio = () => {
             <h3>Blockchain Hackathon</h3>
             <small>Took part in the Blockchain Hackathon held by the ISFCR club. Worked on implementing a blockchain connection.</small>
         </article>
-            <article className='portfolio__item'>
+        <article className='portfolio__item'>
             <h3>Dotslash'23 4.0</h3>
             <small>Implemented VAK Categorization. Provides the user with the required type of resources (Aural, Visual or Kinesthetic).</small>
         </article>
         </article>
-            <article className='portfolio__item'>
+        <article className='portfolio__item'>
             <h3>Hack Attack'23</h3>
-            <small>Held by the ISFCR club of PES. Implemented (both C++ and Python) a working model of Encryption & Decryption of messages. Using AES algorithm.</small>
+            <small>Held by the ISFCR club of PES. Implemented (both C++ and Python) a working model of Encryption & Decryption of messages. Used AES algorithm.</small>
         </article>
         </article>
-            <article className='portfolio__item'>
+        <article className='portfolio__item'>
             <h3>Terrathon'23 Hackathon</h3>
-            <small>Held by CMS & Alcoding Club. Dealt with Sustainable Development. Implemented a website that would help local producers sell their local produce.</small>
+            <small>Held by CMS & Alcoding Club. Dealt with Sustainable Development. Implemented a website that would help local producers sell their produce.</small>
         </article>
       </div>
       <br/>
@@ -47,44 +47,43 @@ const Portfolio = () => {
             Web Development Team
             <br/>
             <small>This is a club that hosts a huge hackathon with a straight-up aim and objective, always in the moto of bringing out the best. </small>
-        </article>
+      </article>
       <article className='portfolio__item'>
             <h3>Shunya</h3>
             Cotangent - Math Team
             <br/>
-            <small>One of the most active clubs of PES with a lot of events happening now and then. Honored to be a part of this club.
-            </small>
-        </article>
-        <article className='portfolio__item'>
+            <small>One of the most active clubs of PES with a lot of events happening now and then. Honored to be a part of this club.</small>
+      </article>
+      <article className='portfolio__item'>
             <h3>ADG (Apple Developer's Group)</h3>
             Internal Relations Team
             <br/>
-            <small>Joined this club recently, an awesome developing club. I'm really glad to be actually working in this club overall.</small>
-        </article>
-        <article className='portfolio__item'>
+            <small>Joined this club recently, an awesome developing club. Hold regular talks on various topics.</small>
+      </article>
+      <article className='portfolio__item'>
             <h3>Alcoding</h3>
             Operations & UI/UX Design Team
             <br/>
             <small>Competitive Programming based club. Kind people with great talents. Hold regular coding competitions (online) and talks (offline).</small>
-        </article>
-        <article className='portfolio__item'>
+      </article>
+      <article className='portfolio__item'>
             <h3>VRE</h3>
             Internship Course
             <br/>
             <small>I am a huge car person and that led me to exploring this club and was part of their outstanding internship where I learnt about Onshape and Solid Works.</small>
-        </article>
-        <article className='portfolio__item'>
+      </article>
+      <article className='portfolio__item'>
             <h3>CMS - Change Maker's Society</h3>
             UI/UX Design Team
             <br/>
             <small>Amazing Interview-Placement based club where they host reular meetings and interactive sessions.</small>
-        </article>
-        <article className='portfolio__item'>
+      </article>
+      <article className='portfolio__item'>
             <h3>Aatmatrisha'23</h3>
             DISCO (Disciplinary Committee)
             <br/>
             <small>This is the official annual event of PES. Participated in the dance flashmob and volunteered for the DISCO community.</small>
-        </article>
+      </article>
       </div>
       <br />
       <br />
